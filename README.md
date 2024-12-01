@@ -1,4 +1,3 @@
-
 <h1 align="center">Pricing Table | devChallenges</h1>
 
 <div align="center">
@@ -7,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://devchallenge-pricing-table.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://devchallenge-pricing-table.netlify.app">
       Solution
     </a>
     <span> | </span>
@@ -32,18 +31,15 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![Overview](/resources/Overview.jpg)
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+I learned a new HTML tag that I didn't know, it was a challenge that took me a little longer than I thought it would.
 
 ### Useful resources
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+[Feature Price Comparison Table](https://www.youtube.com/watch?v=Ki2HbIMZTgg&list=LL&index=5&t=929s)
 
 ### Built with
 
@@ -58,5 +54,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
+- Website [Pricing Table](https://devchallenge-pricing-table.netlify.app)
 - GitHub [Pogo182028](https://github.com/Pogo182028)
