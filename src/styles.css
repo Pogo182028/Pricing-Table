@@ -563,6 +563,22 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+.table {
+  display: table;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
 .max-w-\[min\(90\%\2c 1200px\)\] {
   max-width: min(90%,1200px);
 }
@@ -573,6 +589,34 @@ video {
 
 .max-w-\[min\(95\%\2c _1200px\)\] {
   max-width: min(95%, 1200px);
+}
+
+.max-w-\[min\(95\%\2c 1200px\)\] {
+  max-width: min(95%,1200px);
+}
+
+.max-w-\[min\(95\%\2c 1280px\)\] {
+  max-width: min(95%,1280px);
+}
+
+.max-w-\[min\(95\%\2c 1281px\)\] {
+  max-width: min(95%,1281px);
+}
+
+.max-w-\[min\(95\%\2c 1550px\)\] {
+  max-width: min(95%,1550px);
+}
+
+.max-w-\[min\(95\%\2c 132px\)\] {
+  max-width: min(95%,132px);
+}
+
+.max-w-\[min\(95\%\2c 128px\)\] {
+  max-width: min(95%,128px);
+}
+
+.max-w-\[95\%\] {
+  max-width: 95%;
 }
 
 .border-b-2 {
@@ -620,6 +664,18 @@ video {
 
 .bg-\[url\(\.\/resources\/bg-pattern\.png\)\] {
   background-image: url(./resources/bg-pattern.png);
+}
+
+.bg-\[url\(\.\.\/resources\/down_arrow-1\.svg\)\] {
+  background-image: url(../resources/down_arrow-1.svg);
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-8 {
