@@ -31,30 +31,30 @@
     <div class="flex justify-center">
       <table class="border-collapse w-[90%] max-sm:w-[95%] text-center">
         <thead>
-          <tr class="[&>th]:py-4">
-            <th class="w-[20%]"></th>
-            <th class="text-[#263FA9] w-[20%]">Free</th>
-            <th class="text-[#263FA9] w-[20%] xl:table-cell lg:hidden sm:hidden max-sm:hidden">Team</th>
-            <th class="text-white w-[20%] bg-[#121826] rounded-t-2xl">
+          <tr class="[&>th]:py-4 [&>th]:w-[20%]">
+            <th></th>
+            <th class="text-[#263FA9]">Free</th>
+            <th class="text-[#263FA9] media-queries">Team</th>
+            <th class="text-white bg-[#121826] rounded-t-2xl">
               <div class="bg-[#263FA9] rounded-2xl inline-block px-2">
                 Popular
               </div>
             </th>
-            <th class="text-[#263FA9] w-[20%] xl:table-cell lg:hidden sm:hidden max-sm:hidden">Enterprise</th>
+            <th class="text-[#263FA9] media-queries">Enterprise</th>
           </tr>
-          <tr>
+          <tr class="[&>th]:text-[64px]">
             <th></th>
-            <th class="text-[64px]">$0</th>
-            <th class="text-[64px] xl:table-cell lg:hidden sm:hidden max-sm:hidden">$59</th>
-            <th class="text-[64px] text-white bg-[#121826]">$99</th>
-            <th class="text-[64px] xl:table-cell lg:hidden sm:hidden max-sm:hidden">$299</th>
+            <th>$0</th>
+            <th class="media-queries">$59</th>
+            <th class="text-white bg-[#121826]">$99</th>
+            <th class="media-queries">$299</th>
           </tr>
           <tr class="[&>th]:pb-8">
             <th></th>
-            <th class="text-[#4D5562] font-normal xl:table-cell lg:hidden sm:hidden max-sm:hidden">Per month</th>
+            <th class="text-[#4D5562] font-normal media-queries">Per month</th>
             <th class="text-[#4D5562] font-normal">Per month</th>
             <th class="text-white font-normal bg-[#121826]">Per month</th>
-            <th class="text-[#4D5562] font-normal xl:table-cell lg:hidden sm:hidden max-sm:hidden">Per month</th>
+            <th class="text-[#4D5562] font-normal media-queries">Per month</th>
           </tr>
         </thead>
         <tbody
@@ -62,96 +62,98 @@
         >
           <tr>
             <td
-              class="font-semibold bg-[#F8FAFC] pl-4 text-left rounded-tl-2xl"
+              class="table-column-names rounded-tl-2xl"
             >
               Website number
             </td>
             <td>01</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">10</td>
-            <td class="text-white bg-[#121826] border-b-[#4D5562]">50</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">Unlimited</td>
+            <td class="media-queries">10</td>
+            <td class="textColor-bgColor-borderColor">50</td>
+            <td class="media-queries">Unlimited</td>
           </tr>
           <tr>
-            <td class="font-semibold bg-[#F8FAFC] pl-4 text-left">
+            <td class="table-column-names">
               Server storage
             </td>
             <td>100 GB</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">500 GB</td>
-            <td class="text-white bg-[#121826] border-b-[#4D5562]">1 TB</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">Unlimited</td>
+            <td class="media-queries">500 GB</td>
+            <td class="textColor-bgColor-borderColor">1 TB</td>
+            <td class="media-queries">Unlimited</td>
           </tr>
           <tr>
-            <td class="font-semibold bg-[#F8FAFC] pl-4 text-left">Database</td>
+            <td class="table-column-names">Database</td>
             <td>-</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">15</td>
-            <td class="text-white bg-[#121826] border-b-[#4D5562]">Unlimited</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">Unlimited</td>
+            <td class="media-queries">15</td>
+            <td class="textColor-bgColor-borderColor">
+              Unlimited
+            </td>
+            <td class="media-queries">Unlimited</td>
           </tr>
           <tr>
-            <td class="font-semibold bg-[#F8FAFC] pl-4 text-left">
+            <td class="table-column-names">
               Unmetered Bandwidth
             </td>
             <td>-</td>
             <td
-              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center xl:table-cell lg:hidden sm:hidden max-sm:hidden"
+              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center media-queries"
             ></td>
             <td
-              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center text-white bg-[#121826] border-b-[#4D5562]"
+              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center textColor-bgColor-borderColor"
             ></td>
             <td
-              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center xl:table-cell lg:hidden sm:hidden max-sm:hidden"
+              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center media-queries"
             ></td>
           </tr>
           <tr>
-            <td class="font-semibold bg-[#F8FAFC] pl-4 text-left">SSD Disk</td>
+            <td class="table-column-names">SSD Disk</td>
             <td>-</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">-</td>
+            <td class="media-queries">-</td>
             <td
-              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center text-white bg-[#121826] border-b-[#4D5562]"
+              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center textColor-bgColor-borderColor"
             ></td>
             <td
-              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center xl:table-cell lg:hidden sm:hidden max-sm:hidden"
+              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center media-queries"
             ></td>
           </tr>
           <tr>
-            <td class="font-semibold bg-[#F8FAFC] pl-4 text-left">
+            <td class="table-column-names">
               VCPUS Fontworld
             </td>
             <td>-</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">-</td>
+            <td class="media-queries">-</td>
             <td
-              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center text-white bg-[#121826] border-b-[#4D5562]"
+              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center textColor-bgColor-borderColor"
             ></td>
             <td
-              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center xl:table-cell lg:hidden sm:hidden max-sm:hidden"
+              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center media-queries"
             ></td>
           </tr>
           <tr>
-            <td class="font-semibold bg-[#F8FAFC] pl-4 text-left">
+            <td class="table-column-names">
               Worldpress install
             </td>
             <td>-</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">-</td>
+            <td class="media-queries">-</td>
             <td
-              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center text-white bg-[#121826] border-b-[#4D5562]"
+              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center textColor-bgColor-borderColor"
             ></td>
             <td
-              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center xl:table-cell lg:hidden sm:hidden max-sm:hidden"
+              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center media-queries"
             ></td>
           </tr>
           <tr>
             <td
-              class="flex w-full font-semibold bg-[#F8FAFC] pl-4 text-left rounded-bl-2xl"
+              class="flex w-full table-column-names rounded-bl-2xl"
             >
               Server speed
             </td>
             <td>-</td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">-</td>
+            <td class="media-queries">-</td>
             <td
-              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center text-white bg-[#121826] border-b-[#4D5562]"
+              class="bg-[url(../resources/check.svg)] bg-no-repeat bg-center textColor-bgColor-borderColor"
             ></td>
             <td
-              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center xl:table-cell lg:hidden sm:hidden max-sm:hidden"
+              class="bg-[url(../resources/check-1.svg)] bg-no-repeat bg-center media-queries"
             ></td>
           </tr>
         </tbody>
@@ -164,7 +166,7 @@
                 <img src="resources/down arrow-1.svg" alt="down_arrow" />
               </button>
             </td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">
+            <td class="media-queries">
               <button class="flex gap-2 p-4 mx-auto">
                 Get Started
                 <img src="resources/down arrow-1.svg" alt="down_arrow" />
@@ -176,7 +178,7 @@
                 <img src="resources/down arrow.svg" alt="down_arrow" />
               </button>
             </td>
-            <td class="xl:table-cell lg:hidden sm:hidden max-sm:hidden">
+            <td class="media-queries">
               <button class="flex gap-2 p-4 mx-auto">
                 Get Started
                 <img src="resources/down arrow-1.svg" alt="down_arrow" />

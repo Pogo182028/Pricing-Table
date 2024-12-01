@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .media-queries {
+        @apply xl:table-cell lg:hidden sm:hidden max-sm:hidden;
+    }
+    .textColor-bgColor-borderColor {
+        @apply text-white bg-[#121826] border-b-[#4D5562];
+    }
+    .table-column-names {
+        @apply font-semibold bg-[#F8FAFC] pl-4 text-left;
+    }
+}
