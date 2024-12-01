@@ -554,6 +554,93 @@ video {
   display: none;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.max-w-\[min\(90\%\2c 1200px\)\] {
+  max-width: min(90%,1200px);
+}
+
+.max-w-\[min\(90\%\2c _1200px\)\] {
+  max-width: min(90%, 1200px);
+}
+
+.max-w-\[min\(95\%\2c _1200px\)\] {
+  max-width: min(95%, 1200px);
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-\[1px\] {
+  border-bottom-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-b-black {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
+.border-b-\[1px_solid_\#E5E7EB\] {
+  border-bottom-color: 1px solid #E5E7EB;
+}
+
+.bg-\[\#E5E7EB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F8FAFC\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[url\(resources\/bg-pattern\.png\)\] {
+  background-image: url(resources/bg-pattern.png);
+}
+
+.bg-\[url\(\/resources\/bg-pattern\.png\)\] {
+  background-image: url(/resources/bg-pattern.png);
+}
+
+.bg-\[url\(\.\.\/resources\/bg-pattern\.png\)\] {
+  background-image: url(../resources/bg-pattern.png);
+}
+
+.bg-\[url\(\.\/resources\/bg-pattern\.png\)\] {
+  background-image: url(./resources/bg-pattern.png);
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -562,7 +649,39 @@ video {
   font-family: Be Vietnam Pro, sans-serif;
 }
 
+.text-\[32px\] {
+  font-size: 32px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .text-\[\#263FA9\] {
   --tw-text-opacity: 1;
   color: rgb(38 63 169 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#121826\] {
+  --tw-text-opacity: 1;
+  color: rgb(18 24 38 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#E5E7EB\] {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#4D556233\] {
+  color: #4D556233;
+}
+
+.text-\[\#4D5562\] {
+  --tw-text-opacity: 1;
+  color: rgb(77 85 98 / var(--tw-text-opacity, 1));
 }
