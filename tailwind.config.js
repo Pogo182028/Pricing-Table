@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        BeVietnamPro: ["Be Vietnam Pro", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

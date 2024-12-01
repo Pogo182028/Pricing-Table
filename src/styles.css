@@ -558,6 +558,10 @@ video {
   text-align: center;
 }
 
+.font-BeVietnamPro {
+  font-family: Be Vietnam Pro, sans-serif;
+}
+
 .text-\[\#263FA9\] {
   --tw-text-opacity: 1;
   color: rgb(38 63 169 / var(--tw-text-opacity, 1));
